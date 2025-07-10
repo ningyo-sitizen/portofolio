@@ -182,7 +182,7 @@ li {
 .project-item {
     background-color: #3A5D73;
     border-radius: 12px;
-    padding: 1.5rem;
+    padding: 1rem;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .2);
     transition: transform 0.3s;
     width: 250px;
@@ -194,7 +194,7 @@ li {
 
 .project-item h2 {
     margin-top: 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #00FFD1;
 }
 
