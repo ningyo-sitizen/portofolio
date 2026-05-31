@@ -1,133 +1,173 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="eng">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio kianafan</title>
+    <title>portofolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="tools/2057313586201178606.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <nav class="top-nav">
-        <a href="#section-perkenalan" class="nav-link">Perkenalan</a>
-        <a href="#section-tentang" class="nav-link">Tentang saya</a>
-        <a href="#section-projects" class="nav-link">Projects</a>
-        <a href="#section-callme" class="nav-link">Hubungi</a>
-    </nav>
-
-    <main>
-        <section id="section-perkenalan">
-            <div class="content">
-                <h1>Halo, saya zuriel joseph jowy mone</h1>
-                <p>saya bisa dipanggil jowy</p>
-                <p>saya seorang mahasiswa PNJ yang sedang menempuh didalam biadng IT</p>
-                <p>scroll lagi untuk mengetahui tentang saya</p>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-box">
+                    <ul class="menu">
+                        <li><a href="#tentang">tentang</a></li>
+                        <li><a href="#tools">tools</a></li>
+                        <li><a href="#proyek">proyek</a></li>
+                    </ul>
+                </div>
             </div>
-        </section>
+        </div>
 
-<section id="section-tentang">
-  <div class="content">
-    <h1>Tentang Saya</h1>
+        <div class="hero">
+            <div class="container">
+                <div class="hero-box">
+                    <img src="./project/me.png" alt="">
+                    <h1>
+                        hello,nama saya <span id="auto"></span><br>
+                        mahasiswa IT PNJ
+                    </h1>
+                </div>
+            </div>
+        </div>
 
-    <div class="cards-wrapper">
-      <article class="info-card">
-        <h2>Profil Singkat</h2>
-        <p>Halo! Saya Zuriel Joseph Jowy Mone (“Jowy”), mahasiswa TI di PNJ
-        .</p>
-      </article>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#00008b " fill-opacity="1"
+                d="M0,160L40,165.3C80,171,160,181,240,192C320,203,400,213,480,181.3C560,149,640,75,720,69.3C800,64,880,128,960,176C1040,224,1120,256,1200,245.3C1280,235,1360,181,1400,154.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </header>
 
-      <article class="info-card">
-        <h2>Hobi</h2>
-        <ul>
-          <li>Gaming</li>
-          <li>musik</li>
-          <li>membuat projek simple</li>
-        </ul>
-      </article>
+    <div class="tentang" id="tentang">
+        <div class="container">
+            <h1>Tentang</h1>
+            <div class="tentang-box">
+                <div class="box">
+                    <img src="./project/me.png" alt="me">
+                    <div>
+                        <p>
+                            mahasiswa PNJ semester 6 yang memiliki ketertarikan dalam software development dan data
+                            Analysis belum
+                            memiliki pengalaman pekerjaan tapi sudah memiliki pengalam dalam pengembangan
+                            aplikasi,website dan melakukan EDA(Exploratory Data Analysis)
+                            saya biasanya menggunkan node.js,python,java,sql,nosql,react dalam membuat program. selain
+                            programing saya juga bisa mendokumentasi development dfd(data flow diagram),bmpn(business
+                            process model and notation).saya biasanya bekerja dalam kelompok maupun sendiri
+                        </p>
+                        <a href="">Lihat daftar proyek saya</a>
+                    </div>
+                </div>
+                <div class="box" id="tools">
+                    <h1>Tools yang biasa saya pakai</h1>
 
-      <article class="info-card">
-        <h2>Bahasa Pemrograman</h2>
-        <ul>
-          <li>HTML/CSS/JS</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>sql</li>
-          <li>no sql</li>
-        </ul>
-      </article>
-
-      <article class="info-card">
-        <h2>Framework & Tools</h2>
-        <ul>
-          <li>Bootstrap</li>
-          <li>Android Studio</li>
-          <li>Git & GitHub</li>
-          <li>restAPI</li>
-          <li>emailjs</li>
-        </ul>
-      </article>
-
-      <article class="info-card">
-        <h2>Libraries Favorit</h2>
-        <ul>
-          <li>Pandas / NumPy</li>
-          <li>OpenCV</li>
-        </ul>
-      </article>
+                    <div class="tools">
+                        <div class="tools-box">
+                            <img src="./tools/vscode.png" alt="">
+                            <div class="tools-desc">
+                                <h3>Visual Studio Code</h3>
+                                <p>code editor</p>
+                            </div>
+                        </div>
+                        <div class="tools-box">
+                            <img src="./tools/reactjs.png" alt="">
+                            <div class="tools-desc">
+                                <h3>react</h3>
+                                <p>programing language</p>
+                            </div>
+                        </div>
+                        <div class="tools-box">
+                            <img src="./tools/nodejs.png" alt="">
+                            <div class="tools-desc">
+                                <h3>nodejs</h3>
+                                <p>programing language</p>
+                            </div>
+                        </div>
+                        <div class="tools-box">
+                            <img src="./tools/js.png" alt="">
+                            <div class="tools-desc">
+                                <h3>java script</h3>
+                                <p>programing language</p>
+                            </div>
+                        </div>
+                        <div class="tools-box">
+                            <img src="./tools/github.png" alt="">
+                            <div class="tools-desc">
+                                <h3>github</h3>
+                                <p>repository</p>
+                            </div>
+                        </div>
+                        <div class="tools-box">
+                            <img src="./tools/figma.png" alt="">
+                            <div class="tools-desc">
+                                <h3>figma</h3>
+                                <p>UI/UX design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <button class="scroll-btn left"  aria-label="Geser kiri">‹</button>
-    <button class="scroll-btn right" aria-label="Geser kanan">›</button>
-  </div>
-</section>
-
-
-
-<section id="section-projects">
-  <div class="content">
-    <h1>Project Saya</h1>
-
-    <div class="project-grid">
-      <article class="project-item">
-        <h2><a href="https://github.com/ningyo-sitizen/project-_2">Jocofee</a></h2>
-        <p>website sebagai tempat untuk reservasi menggunakan emailJS</p>
-      </article>
-
-      <article class="project-item">
-        <h2><a href="https://github.com/ningyo-sitizen/jocofee">Jocofee + no sql</a></h2>
-        <p>webstie admin dan aplikasi mobil,web sebagai tempat untuk admin dan mobile untuk user</p>
-        <p>menggunakan java,restAPI,cloudinary,mongodb</p>
-      </article>
-
-      <article class="project-item">
-        <h2><a href="https://github.com/ningyo-sitizen/photo-edit">Editing foto Berbasis Web</a></h2>
-        <p>istem editing foto berbasis web yang memiliki fitur Image Restoration, Image Enhancement, Image Compression, Remove Background, dan Image Transformation.</p>
-      </article>
-
-      <article class="project-item">
-        <h2><a href="https://github.com/ningyo-sitizen/dss">spk untuk menetukn makanan kantin dari posisi gedung gsg</a></h2>
-        <p>dengan melakukan riset dan metode maut saya dan kelompok saya dapat menentukan makanan yang paling rekomen</p>
-      </article>
-      <article class="project-item">
-        <h2><a href="https://github.com/ningyo-sitizen/JST">prediksi curah hujan</a></h2>
-        <p>dengan data yang dicari dari histori data curah hujan dan menerapkan JST saya dan kelompok saya dapat memprediksi curah hhujan</p>
-      </article>      
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#00008b" fill-opacity="1"
+            d="M0,288L48,245.3C96,203,192,117,288,85.3C384,53,480,75,576,74.7C672,75,768,53,864,48C960,43,1056,53,1152,80C1248,107,1344,149,1392,170.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+    <div class="proyek" id="proyek">
+        <div class="container">
+            <h1>Proyek</h1>
+            <div class="proyek-box">
+                <div class="box">
+                    <img src="./tools/churn.png" alt="">
+                    <div class="proyek-desc">
+                        <h2>churn prediction project</h2>
+                        <p>dalam project ini saya kelompok mengerjakan projeck dimana kami akan mendeteksi pelanggan yang akan melakukan churn menggunakan Machine Learning.Kami menggunakan data public dari kaggle dengan tema streaming services</p>
+                        <div class="proyek-btn">
+                            <a href="">lihat detail</a>
+                            <a href="">github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./tools/bepus.png" alt="">
+                    <div class="proyek-desc">
+                        <h2>kei</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consequatur pariatur minus
+                            facere laborum tenetur cupiditate, impedit sed perferendis magni veniam debitis tempora,
+                            obcaecati fugiat tempore molestias incidunt, architecto ullam.</p>
+                        <div class="proyek-btn">
+                            <a href="">lihat detail</a>
+                            <a href="">github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</section>
-
-
-<section id="section-callme">
-    <div class="content">
-        <h1>Hubungi Saya</h1>
-        <p>Email: <a href="mailto:zuriel.joseph.jowy.mone.tik23@stu.pnj.ac.id">zuriel.joseph.jowy.mone.tik23@stu.pnj.ac.id</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/zuriel-jos" target="_blank">https://linkedin.com/in/zuriel-jos</a></p>
-    </div>
-</section>
-    </main>
-
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#00008b" fill-opacity="1"
+            d="M0,160L48,170.7C96,181,192,203,288,218.7C384,235,480,245,576,250.7C672,256,768,256,864,245.3C960,235,1056,213,1152,213.3C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
     <script src="js.js"></script>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#auto', {
+            strings: ["jowy", "mone"],
+            typeSpeed: 200,
+            loop: true,
+            backSpeed: 100,
+            backDelay: 1000
+        });
+    </script>
 </body>
 
 </html>
