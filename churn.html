@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="more.css">
+    <link rel="icon" href="tools/2057313586201178606.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-box">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="./main.html">HOME</a></li>
+                            <li><a href="./about_me.html">ABOUT ME</a></li>
+                            <li><a href="#project">MY PROJECT</a></li>
+                            <li><a href="#CONTACT">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="side-button"><button>MENU ↓</button></div>
+                    <div class="side-menu" aria-expanded="false">
+                        <div class="side-menu-list">
+                            <ul>
+                                <li>
+                                    <div class="side-menu-desc">
+                                        <img src="./tools/home.png" alt="">
+                                        <div class="side-menu-desc-text">
+                                            <a href="./main.html">HOME</a>
+                                            <p>Welcome to my portfolio</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="side-menu-desc">
+                                        <img src="./tools/user.png" alt="">
+                                        <div class="side-menu-desc-text">
+                                            <a href="./about_me.html">ABOUT ME</a>
+                                            <p>Learn more about who I am</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="side-menu-desc">
+                                        <img src="./tools/document.png" alt="">
+                                        <div class="side-menu-desc-text">
+                                            <a href="./main.html">PROJECTS</a>
+                                            <p>Know about my projects</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="side-menu-desc">
+                                        <img src="./tools/contact-mail.png" alt="">
+                                        <div class="side-menu-desc-text">
+                                            <a href="./about_me.html">CONTACT</a>
+                                            <p>My detailed journey</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="featuredProject">
+        <h1>featured project</h1>
+        <div class="projectBox">
+            <div class="projectCon">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#auto', {
+            strings: ["am a student", "love my life", "am a developer", "love trying new things", "am a data analyst"],
+            typeSpeed: 100,
+            loop: true,
+            backSpeed: 100,
+            backDelay: 1000
+        });
+    </script>
+</body>
+
+</html>
