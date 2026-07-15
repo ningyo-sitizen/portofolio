@@ -69,28 +69,6 @@ body {
 }
 
 
-.side-menu {
-    padding-top: 75px;
-    display: block; 
-}
-
-.side-menu ul {
-    position: fixed;
-    right: 0;
-    height: auto;
-    width: 345px;
-    z-index: 999;
-    margin-top: -20px;
-    margin-right: 25px;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
-    list-style: none;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-20px);
-    transition: opacity 0.3s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), visibility 0.3s;
-}
 
 .side-menu li {
     width: 100%;

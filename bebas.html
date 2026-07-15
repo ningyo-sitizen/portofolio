@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -21,10 +23,10 @@
                 <div class="navbar-box">
                     <div class="menu">
                         <ul>
-                            <li><a href="./main.html">HOME</a></li>
+                            <li><a href="./index.html">HOME</a></li>
                             <li><a href="./about_me.html">ABOUT ME</a></li>
-                            <li><a href="#project">MY PROJECT</a></li>
-                            <li><a href="#CONTACT">CONTACT</a></li>
+                            <li><a href="./index.html#project">MY PROJECT</a></li>
+                            <li><a href="./index.html#CONTACT">CONTACT</a></li>
                         </ul>
                     </div>
                     <div class="side-button"><button>MENU ↓</button></div>
@@ -35,7 +37,7 @@
                                     <div class="side-menu-desc">
                                         <img src="./tools/home.png" alt="">
                                         <div class="side-menu-desc-text">
-                                            <a href="./main.html">HOME</a>
+                                            <a href="./index.html">HOME</a>
                                             <p>Welcome to my portfolio</p>
                                         </div>
                                     </div>
@@ -53,7 +55,7 @@
                                     <div class="side-menu-desc">
                                         <img src="./tools/document.png" alt="">
                                         <div class="side-menu-desc-text">
-                                            <a href="./main.html">PROJECTS</a>
+                                            <a href="./index.html#project">PROJECTS</a>
                                             <p>Know about my projects</p>
                                         </div>
                                     </div>
@@ -63,7 +65,7 @@
                                         <img src="./tools/contact-mail.png" alt="">
                                         <div class="side-menu-desc-text">
                                             <a href="./about_me.html">CONTACT</a>
-                                            <p>My detailed journey</p>
+                                            <p>connect with me</p>
                                         </div>
                                     </div>
                                 </li>
@@ -73,243 +75,520 @@
                 </div>
             </div>
         </div>
+    </header>
+    <div class="featuredProject">
+        <h1>featured project</h1>
 
-        <div class="hero" id="home">
-            <div class="container">
-                <div class="hero-box">
-                    <h1>
-                        I'm Jowy Mone<br>
-                        I {<span id="auto"></span>}
-                    </h1>
-                    <p class="hero-desc">
-                        I'm a software developer and a data analyst who's enthusiastic about software development and data-driven applications.
-                        Still learning and never stop studying to follow the evolution of tech and life itself. I like to work with others as much as I like working by myself.
-                    </p>
-                    <div class="resume">
-                        <div class="resume-file">
-                            <a href="Skripsi_D4-1.pdf" target="_blank">Get my resume</a>
-                        </div>
-                        <div class="resume-about">
-                            <a href="about_me.html">More about me</a>
+        <div class="projectBox">
+            <div class="project-title">
+                <h2>project <span style="color: #00008b;">BEBASPUSTAKA</span></h2>
+                <img src="./tools/bepus.png" alt="Sistem Informasi Bebas Pustaka">
+                <div class="project-title-desc">
+                    <p>Sistem Informasi Bebas Pustaka dirancang untuk mendigitalisasi dan mengotomatisasi kompensasi
+                        (kompen) mahasiswa Jurusan TI</p>
+                </div>
+            </div>
+
+            <div class="project-overview">
+                <h2>• Project Overview</h2>
+                <p>Bebas Pustaka website was developed to digitalize and automate the the event
+                    of kompensasi(kompen) tasks within the IT Department, which previously relied on
+                    inefficient manual procedures. By integrating APIs between the library database (OPAC) and the
+                    SIKOMPEN platform, this Laravel-based system eliminates the need for physical queues and slashes
+                    book-loan verification times to just one second. Consequently, it reduces the administrative
+                    workload for librarians during peak end-of-semester periods by over 90%.</p>
+            </div>
+
+            <div class="project-overview">
+                <h2>• Core Features</h2>
+                <p>Sistem ini ditanamkan logika automasi untuk mengecek status pinjaman buku mahasiswa secara mandiri
+                    tanpa intervensi manual:</p>
+                <ul class="project-list">
+                    <li><strong>dashboard:</strong> Mengvisualisasi data database peminjaman buku perpustakaan yand
+                        dapat di filterisasi sesuai keingignan user</li>
+                    <li><strong>filterisasi bebaspustaka kompen:</strong>proses otomatis yang dilakukan oleh sistem
+                        ketika memulai proses approval dan melakukan filterisasi mahasiswa yang sudah bebaspustaka
+                        sesuai syarat yang sudah ditentukan.</li>
+                    <li><strong>bebasputaka kompen approval:</strong>proses approval untuk semua mahasiswa yang sudah
+                        memenuhi syarat approval.</li>
+
+                </ul>
+            </div>
+
+            <div class="project-overview">
+                <h2>• Language & Core System Environment</h2>
+                <p>Teknologi dan kerangka kerja arsitektur web yang diterapkan pada platform ini meliputi:</p>
+                <div class="lang-tags">
+                    <span class="lang-tag"><img src="./tools/reactjs.png" alt=""> REACT</span>
+                    <span class="lang-tag"><img src="./tools/mysql.png" alt=""> MySQL</span>
+                    <span class="lang-tag"><img src="./tools/nodejs.png" alt=""> NodeJS</span>
+                    <span class="lang-tag"><img src="./tools/tailwind.png" alt="">Tailwind</span>
+                </div>
+            </div>
+
+            <div class="project-overview">
+                <h2>• Generated System Outputs</h2>
+                <p>Setelah melewati verifikasi mesin, platform ini menerbitkan berkas bebas pustaka siap unduh:</p>
+                <ul class="project-list">
+                    <li><strong>Digital Receipt: </strong>list status bebaspustaka kompen mahasiswa yang mengikuti
+                        proses kompensasi
+                    </li>
+            </div>
+            <div class="project-overview">
+                <h2>• project timeline</h2>
+                <p>the timeline of bebaspustaka development</p>
+                <div class="timeline">
+                    <div class="timeline-box">
+                        <div class="timeline-line">
+
+                            <!-- FASE 1: PERENCANAAN PROJEK -->
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>1.1 Identifikasi Masalah & Kebutuhan Pengguna</h3>
+                                </div>
+                                <div class="date">September 1, 2025 → September 2, 2025</div>
+                                <div class="posisi">
+                                    <p>Perencanaan Projek (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Melakukan analisis awal untuk menentukan masalah utama yang dihadapi dan
+                                        memetakan apa saja kebutuhan dasar dari pengguna sistem.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>1.2 Penyusunan Timeline & Pembagian Tugas</h3>
+                                </div>
+                                <div class="date">September 1, 2025 → September 3, 2025</div>
+                                <div class="posisi">
+                                    <p>Perencanaan Projek (Durasi: 3 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menyusun jadwal kerja terstruktur dan membagi tanggung jawab tugas kepada
+                                        masing-masing anggota tim projek.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>1.3 Wawancara Stakeholder & Calon Pengguna</h3>
+                                </div>
+                                <div class="date">8-Sep-2025, 18-Sep-2025, 22-Sep-2025</div>
+                                <div class="posisi">
+                                    <p>Perencanaan Projek (3 Sesi Wawancara)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menggali ekspektasi, kebutuhan alur kerja, dan batasan sistem langsung dari pihak
+                                        pemangku kepentingan serta calon pengguna akhir.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>1.4 Observasi ke Pengguna / Sistem Lama</h3>
+                                </div>
+                                <div class="date">September 18, 2025 → September 19, 2025</div>
+                                <div class="posisi">
+                                    <p>Perencanaan Projek (Durasi: 2 Sesi)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Mengamati langsung cara kerja pengguna saat ini dan menganalisis kelemahan atau
+                                        celah yang ada pada sistem operasional yang lama.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>1.5 Dokumentasi Hasil Pengumpulan Kebutuhan</h3>
+                                </div>
+                                <div class="date">September 22, 2025 → September 23, 2025</div>
+                                <div class="posisi">
+                                    <p>Perencanaan Projek (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Mengumpulkan dan merangkum seluruh data hasil wawancara serta observasi ke dalam
+                                        satu dokumen rekam jejak kebutuhan.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>1.6 Penyusunan Project Charter & WBS</h3>
+                                </div>
+                                <div class="date">September 15, 2025 → September 19, 2025</div>
+                                <div class="posisi">
+                                    <p>Perencanaan Projek (Durasi: 4 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Merumuskan dokumen legalitas projek (Project Charter) dan memecah struktur
+                                        komponen kerja secara detail melalui Work Breakdown Structure (WBS).</p>
+                                </div>
+                            </div>
+
+                            <!-- FASE 2: ANALISIS KEBUTUHAN -->
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>2.1 Analisis Kebutuhan Fungsional & Non-Fungsional</h3>
+                                </div>
+                                <div class="date">September 18, 2025 → September 19, 2025</div>
+                                <div class="posisi">
+                                    <p>Analisis Kebutuhan (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menentukan fitur utama yang harus ada pada sistem (fungsional) beserta batasan
+                                        performa, keamanan, dan kualitas sistem (non-fungsional).</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>2.2 Pemodelan Kebutuhan (Use Case, DFD, BPMN)</h3>
+                                </div>
+                                <div class="date">September 22, 2025 → September 25, 2025</div>
+                                <div class="posisi">
+                                    <p>Analisis Kebutuhan (Durasi: 4 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menggambarkan diagram alir proses bisnis, interaksi aktor dengan sistem, serta
+                                        pergerakan data menggunakan standardisasi Use Case, DFD, dan BPMN.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>2.3 Penyusunan Dokumen Spesifikasi Kebutuhan (SRS)</h3>
+                                </div>
+                                <div class="date">September 27, 2025 → September 29, 2025</div>
+                                <div class="posisi">
+                                    <p>Analisis Kebutuhan (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menyusun dokumen resmi Software Requirements Specification (SRS) sebagai acuan
+                                        baku bagi tim pengembang.</p>
+                                </div>
+                            </div>
+
+                            <!-- FASE 3: PERANCANGAN SISTEM -->
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>3.1 Perancangan Arsitektur Sistem</h3>
+                                </div>
+                                <div class="date">September 30, 2025 → October 3, 2025</div>
+                                <div class="posisi">
+                                    <p>Perancangan Sistem (Durasi: 5 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menentukan struktur teknologi, model server, konektivitas komponen, dan pola
+                                        dasar arsitektur perangkat lunak yang akan digunakan.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>3.2 Perancangan Sistem (ERD, Activity & Sequence Diagram)</h3>
+                                </div>
+                                <div class="date">October 2, 2025 → October 4, 2025</div>
+                                <div class="posisi">
+                                    <p>Perancangan Sistem (Durasi: 4 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Merancang struktur basis data (ERD) serta logika jalannya fungsi internal
+                                        aplikasi secara sekuensial dan berbasis aktivitas.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>3.3 Perancangan Antarmuka (UI/UX, Wireframe, Mockup)</h3>
+                                </div>
+                                <div class="date">October 6, 2025 → October 10, 2025</div>
+                                <div class="posisi">
+                                    <p>Perancangan Sistem (Durasi: 5 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Membuat kerangka visual tata letak (wireframe) dan desain grafis interaktif
+                                        (mockup) untuk memastikan pengalaman pengguna yang optimal.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>3.4 Penyusunan Dokumen Spesifikasi Sistem (SDD)</h3>
+                                </div>
+                                <div class="date">October 11, 2025 → October 13, 2025</div>
+                                <div class="posisi">
+                                    <p>Perancangan Sistem (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menulis cetak biru teknis Software Design Description (SDD) sebagai panduan
+                                        detail bagi programer untuk menulis kode.</p>
+                                </div>
+                            </div>
+                            <!-- FASE 4: PENGEMBANGAN SISTEM -->
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>4.1 Persiapan Environment (Tools, Framework, Database)</h3>
+                                </div>
+                                <div class="date">October 11, 2025 → October 14, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengembangan Sistem (Durasi: 4 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Melakukan instalasi perkakas kode, inisialisasi framework pilihan, dan
+                                        konfigurasi server basis data lokal untuk memulai tahap <strong> coding
+                                        </strong>.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>4.2 Pengembangan Backend (CRUD, Autentikasi, API)</h3>
+                                </div>
+                                <div class="date">October 16, 2025 → October 31, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengembangan Sistem (Durasi: 14 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Membangun logika bisnis di sisi server, membuat sistem hak akses keamanan login
+                                        (autentikasi), operasi data basis data, serta integrasi endpoint API.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-hero">
-                        <div class="box">
-                            <img src="./tools/github-rename.png" alt="GitHub">
-                        </div>
-                        <div class="box">
-                            <img src="./tools/linkedin.png" alt="LinkedIn">
-                        </div>
-                        <div class="box">
-                            <img id="tweet" src="./tools/twitter.png" alt="Twitter">
+                    <div class="timeline-box">
+                        <div class="timeline-line">
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>4.3 Pengembangan Frontend</h3>
+                                </div>
+                                <div class="date">October 16, 2025 → October 24, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengembangan Sistem (Durasi: 8 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Mengimplementasikan rancangan UI/UX ke dalam bentuk halaman web atau aplikasi
+                                        interaktif yang dapat dilihat langsung oleh pengguna.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>4.4 Integrasi Frontend-Backend dengan Database</h3>
+                                </div>
+                                <div class="date">October 31, 2025 → November 1, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengembangan Sistem (Durasi: 5 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menghubungkan tampilan antarmuka depan dengan komponen logika server backend agar
+                                        pertukaran data berjalan selaras.</p>
+                                </div>
+                            </div>
+                            <!-- FASE 5: PENGUJIAN -->
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>5.1 Unit Testing</h3>
+                                </div>
+                                <div class="date">November 3, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengujian (Durasi: 3 Hari / Sesi)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menguji fungsionalitas terkecil dari blok baris kode (fungsi/kelas) secara
+                                        terisolasi untuk memastikan tidak ada kesalahan logika internal.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>5.2 Integration Testing</h3>
+                                </div>
+                                <div class="date">November 6, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengujian (Durasi: 3 Hari / Sesi)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Memastikan bahwa ketika modul-modul yang berbeda digabungkan, mereka dapat
+                                        berinteraksi dan bertukar data dengan benar tanpa galat.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>5.3 System Testing</h3>
+                                </div>
+                                <div class="date">November 8, 2025 → November 11, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengujian (Durasi: 3 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menguji keseluruhan sistem secara menyeluruh dari ujung ke ujung (end-to-end)
+                                        guna mencocokkannya dengan kebutuhan awal.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>5.4 User Acceptance Testing (UAT) Bersama Stakeholder</h3>
+                                </div>
+                                <div class="date">November 12, 2025 → November 13, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengujian (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Validasi operasional akhir aplikasi bersama pemangku kepentingan dan perwakilan
+                                        pengguna untuk mendapatkan persetujuan rilis produk.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>5.5 Penyusunan Dokumen Test Plan</h3>
+                                </div>
+                                <div class="date">November 14, 2025 → November 15, 2025</div>
+                                <div class="posisi">
+                                    <p>Pengujian (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Menyusun berkas dokumentasi skenario uji, hasil pencatatan bug, dan laporan akhir
+                                        kelayakan rilis aplikasi.</p>
+                                </div>
+                            </div>
+
+                            <!-- FASE 6: DEPLOYMENT -->
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>6.1 Instalasi Sistem pada Server (Hosting/Domain)</h3>
+                                </div>
+                                <div class="date">November 17, 2025 → November 18, 2025</div>
+                                <div class="posisi">
+                                    <p>Deployment (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Mengonfigurasi lingkungan server produksi, mengunggah kode aplikasi, dan
+                                        menautkan alamat domain agar dapat diakses publik.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>6.2 Migrasi Database ke Server</h3>
+                                </div>
+                                <div class="date">November 19, 2025 → November 21, 2025</div>
+                                <div class="posisi">
+                                    <p>Deployment (Durasi: 3 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Memindahkan skema struktur tabel beserta data-data awal (seeding) dari komputer
+                                        lokal ke server <strong>live</strong> utama.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>6.3 Konfigurasi Keamanan (SSL, Backup, User Role)</h3>
+                                </div>
+                                <div class="date">November 22, 2025 → November 24, 2025</div>
+                                <div class="posisi">
+                                    <p>Deployment (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Memasang sertifikat SSL (HTTPS), mengatur jadwal otomatisasi pencadangan data,
+                                        serta memperketat pembatasan hak akses user.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>6.4 Training Pengguna / Admin</h3>
+                                </div>
+                                <div class="date">25-Nov-2025</div>
+                                <div class="posisi">
+                                    <p>Deployment (Durasi: 1 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Melaksanakan pelatihan cara penggunaan aplikasi serta pengelolaan panel kontrol
+                                        sistem bagi administrator operasional.</p>
+                                </div>
+                            </div>
+
+                            <!-- FASE 7: PEMELIHARAAN -->
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>7.1 Perbaikan Bug yang Muncul</h3>
+                                </div>
+                                <div class="date">November 26, 2025 → November 28, 2025</div>
+                                <div class="posisi">
+                                    <p>Pemeliharaan (Durasi: 3 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Merespons kendala tak terduga dan memperbaiki <strong> error </strong> atau bug
+                                        yang ditemukan
+                                        oleh pengguna pasca-peluncuran.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>7.2 Monitoring Sistem</h3>
+                                </div>
+                                <div class="date">November 29, 2025 → December 1, 2025</div>
+                                <div class="posisi">
+                                    <p>Pemeliharaan (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Memantau stabilitas server, waktu respons aplikasi, serta metrik performa secara
+                                        berkala untuk menjaga stabilitas.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>7.3 Backup & Recovery Data</h3>
+                                </div>
+                                <div class="date">December 2, 2025 → December 3, 2025</div>
+                                <div class="posisi">
+                                    <p>Pemeliharaan (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Memastikan skrip cadangan berjalan lancar dan melakukan simulasi pemulihan data
+                                        untuk antisipasi kondisi darurat.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-con">
+                                <div class="judul">
+                                    <h3>7.4 Update Fitur & Peningkatan Performa</h3>
+                                </div>
+                                <div class="date">December 5, 2025 → December 6, 2025</div>
+                                <div class="posisi">
+                                    <p>Pemeliharaan (Durasi: 2 Hari)</p>
+                                </div>
+                                <div class="deskripsi">
+                                    <p>Melakukan optimasi kueri basis data, pembersihan berkas sampah, serta persiapan
+                                        implementasi modul fitur kecil tambahan.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <div class="tech">
-        <div class="container">
-            <div class="tech-box">
-                <div class="judul">
-                    <h1>MY TECHSTACK</h1>
-                    <p>Technology I usually use to develop my apps</p>
-                </div>
-                <div style="padding-top: 20px;"></div>
-                <div class="tech-list">
-                    <!-- LAN -->
-                    <div class="container-list">
-                        <h1>Programming Languages</h1>
-                        <div class="tools-list">
-                            <div class="tools-list-desc">
-                                <img src="./tools/java.png" alt="Java">
-                                <p>java</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/js_round.png" alt="JavaScript">
-                                <p>JavaScript</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/python.png" alt="Python">
-                                <p>python</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-list">
-                        <h1>Frontend</h1>
-                        <div class="tools-list">
-                            <div class="tools-list-desc">
-                                <img src="./tools/tailwind.png" alt="Tailwind">
-                                <p>tailwind</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/icons8-bootstrap-logo-144.png" alt="Bootstrap">
-                                <p>Bootstrap</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/reactjs.png" alt="ReactJS">
-                                <p>ReactJS</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/CSS3.png" alt="CSS3">
-                                <p>CSS3</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-list">
-                        <h1>Backend</h1>
-                        <div class="tools-list">
-                            <div class="tools-list-desc">
-                                <img src="./tools/nodejs.png" alt="NodeJS">
-                                <p>NodeJS</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/java.png" alt="Java">
-                                <p>Java</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-list">
-                        <h1>Data Science</h1>
-                        <div class="tools-list">
-                            <div class="tools-list-desc">
-                                <img src="./tools/python.png" alt="Python">
-                                <p>Python</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/Pandas.png" alt="Pandas">
-                                <p>Pandas</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/scikit-learn.png" alt="Scikit-Learn">
-                                <p>Scikit-Learn</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-list">
-                        <h1>Database</h1>
-                        <div class="tools-list">
-                            <div class="tools-list-desc">
-                                <img src="./tools/MongoDB_Logomark_SpringGreen.png" alt="MongoDB">
-                                <p>MongoDB</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/mysql.png" alt="MySQL">
-                                <p>MySQL</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- DEVOPS -->
-                    <div class="container-list">
-                        <h1>DevOps</h1>
-                        <div class="tools-list">
-                            <div class="tools-list-desc">
-                                <img src="./tools/Git.png" alt="Git">
-                                <p>Git</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/Jenkins.png" alt="Jenkins">
-                                <p>Jenkins</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/Postman.png" alt="Postman">
-                                <p>Postman</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/vscode.png" alt="VSCode">
-                                <p>VSCode</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-list">
-                        <h1>Design & Collaboration</h1>
-                        <div class="tools-list">
-                            <div class="tools-list-desc">
-                                <img src="./tools/figma.png" alt="Figma">
-                                <p>Figma</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/notion.png" alt="Notion">
-                                <p>Notion</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-list">
-                        <h1>Services</h1>
-                        <div class="tools-list">
-                            <div class="tools-list-desc">
-                                <img src="./tools/resend-icon-black.png" alt="Resend">
-                                <p>Resend</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/Google Cloud.png" alt="GCP">
-                                <p>Google Cloud</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/railway(2).png" alt="Railway">
-                                <p>Railway</p>
-                            </div>
-                            <div class="tools-list-desc">
-                                <img src="./tools/Cld_Logomark_circle_dark.svg" alt="Cloudinary">
-                                <p>Cloudinary</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="project-overview">
+                <h2>• Project output </h2>
+                <p>Output dari development project <span>bebaspustaka</span>:</p>
+                <ul class="project-list">
+                    <li><strong>bebaspustaka : </strong> <a href="https://github.com/ningyo-sitizen/project_bebaspustaka" target="_blank"><code>github</code></a> <a href=""><code class="notlive" style="pointer-events: none;">live demo</code></a> </li>
+                    <li><strong>SDD :</strong> </strong> <a href="https://drive.google.com/file/d/1B0bSx_WJeeVz1FnAeuBIVaxA0SkntcDR/view?usp=sharing" target="_blank"><code>Software Design Document</code></a>.</li>
+                    <li><strong>SRS :</strong> <a href="https://drive.google.com/file/d/1-B20ax6hAjCI9I2V17gFBkHg0E9hzyCj/view?usp=sharing" target="_blank"><code>Software Requirement Specification</code></a>.</li>
+                    <li><strong>User Manual :</strong><a href="https://drive.google.com/file/d/1d-D9vzVy51Jf-UJhobWgJr27YnCw6bcT/view?usp=sharing" target="_blank"><code>User Manual</code></a>.</li>
+                    <li><strong>Test Case :</strong><a href="https://docs.google.com/spreadsheets/d/1d5co_OaMjEitoZoACxnRHqHvM5QQG7kU/edit?usp=sharing&ouid=105759777682614021048&rtpof=true&sd=true" target="_blank"><code>Test Case</code></a>.</li>
+                </ul>
             </div>
         </div>
     </div>
-
-    <div class="projects" id="project">
-        <div class="container">
-            <h1>Featured Projects</h1>
-            <div class="list-projects">
-                <div class="projects-container">
-                    
-                    <div class="projects-detail">
-                        <div class="projects-detail-desc">
-                            <h1>Churnguard CRM</h1>
-                            <p class="project-text">A web-based CRM platform that uses machine learning to identify customers at risk of churning and provides actionable insights to improve retention.</p>
-                            <div class="tools-used">
-                                <img title="ReactJS" src="./tools/reactjs.png" alt="">
-                                <img title="NodeJS" src="./tools/nodejs.png" alt="">
-                                <img title="JavaScript" src="./tools/js.png" alt="">
-                                <img title="Tailwind" src="./tools/tailwind.png" alt="">
-                                <img title="Python" src="./tools/python.png" alt="">
-                                <img title="Google Cloud" src="./tools/Google Cloud.png" alt="">
-                                <img title="Railway" src="./tools/railway(2).png" alt="">
-                                <img title="Resend" src="./tools/resend-icon-black.png" alt="">
-                                <img title="Cloudinary" src="./tools/Cld_Logomark_circle_dark.svg" alt="">
-                                <img title="MySQL" src="./tools/mysql.png" alt="">
-                            </div>
-                            <div class="redirect">
-                                <a href="#" class="btn-outline">GitHub</a>
-                                <a href="./churn.html" class="btn-outline">More Details</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="projects-detail">
-                        <div class="projects-detail-desc">
-                            <h1>Bebaspustaka</h1>
-                            <p class="project-text">A web-based libary system that made to help student and libarian on the event on kompensansi.</p>
-                            <div class="tools-used">
-                                <img title="ReactJS" src="./tools/reactjs.png" alt="">
-                                <img title="NodeJS" src="./tools/nodejs.png" alt="">
-                                <img title="JavaScript" src="./tools/js.png" alt="">
-                                <img title="Tailwind" src="./tools/tailwind.png" alt="">
-                            </div>
-                            <div class="redirect">
-                                <a href="#" class="btn-outline">GitHub</a>
-                                <a href="#" class="btn-outline">More Details</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
     </div>
 
     <script src="js.js"></script>

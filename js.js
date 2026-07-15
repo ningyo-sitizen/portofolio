@@ -11,7 +11,11 @@ btnOpen.addEventListener('click', () => {
 
   sideMenu.setAttribute('aria-expanded', !expanded);
 
-  btnOpen.innerHTML = !expanded ? 'MENU ↑' : 'MENU ↓';
+  const menu = document.querySelector(".side-menu");
+
+  menu.classList.toggle("active");
+
+  btnOpen.innerHTML = 'MENU ↑';
 });
 
 const pixelValue = document.querySelector('.side-button')
@@ -20,15 +24,17 @@ let lastScrollY = 0;
 
 window.addEventListener("scroll", () => {
   const currentScrollY = window.pageYOffset;
+  const menu = document.querySelector(".side-menu");
 
   if (currentScrollY > lastScrollY) {
     document.querySelector('.menu').style.opacity = '0'
     document.querySelector('.side-button').style.opacity = '0'
-    document.querySelector('.side-menu-desc').style.opacity = '0'
+    menu.classList.remove("active");
+    btnOpen.innerHTML =   'MENU ↓';
+
   } else if (currentScrollY < lastScrollY) {
     document.querySelector('.menu').style.opacity = '1'
     document.querySelector('.side-button').style.opacity = '1'
-    document.querySelector('.side-menu-desc').style.opacity = '1'
   }
 
   lastScrollY = currentScrollY;
